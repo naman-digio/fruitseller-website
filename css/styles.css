@@ -128,33 +128,75 @@ nav ul li a{
 
 #store-section{
     background-color: #f7eee2;
-    padding: 50px 0px;
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 #store-section .top{
-    display: flex;
-    flex-direction: column;
+    margin: 65px auto;
     text-align: center;
-    line-height: 2rem;
+    width: 50%;
+
 }
 
-#store-section .top h4{
+.top h4{
     font-family: 'Caveat', cursive;
     color: #91ac41;
     font-size: 1.5rem;
     font-weight: 900;
-    padding: 10px;
-}
-
-#store-section .top h2{
-    font-size: 3rem;
-    padding: 10px;
-}
-
-#store-section .top p{
-    color:#8b8b99;
     
+}
+
+.top h2{
+    font-size: 3rem;
+    padding: 20px 0px;
+    font-weight: 400;
+}
+
+.top p{
+    color:#8b8b99;
+    font-size: 1.1rem;
+    letter-spacing: normal;
+    word-spacing: normal;
+}
+
+#store-section .bottom{
+    display: flex;
+    margin: 0px auto 85px auto;
+    width: 75%;
+
+}
+
+.feature-view{
+    width: 25%;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.feature-view .icon{
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #e3b375;
+    padding: 40px;
+}
+
+.feature-view .icon i{
+    font-size: 5rem;
+    color: white;
+}
+
+.feature-view h3{
+    font-size: 1.7rem;
+    letter-spacing: normal;
+    word-spacing: normal;
+    margin: 25px 0px;
+}
+
+.feature-view p{
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    color: #8b8b99;
+    font-weight: 500;
 }
