@@ -64,12 +64,16 @@ nav ul li a{
 }
 
 .btn{
-    position: relative;
-    left: 10px;
+    
     background-color: rgb(170, 210, 54);
     padding: 8px 25px;
     color: white;
     border-radius: 5px;
+}
+
+.shift-right{
+    position: relative;
+    left: 10px;
 }
 
 .heading{
@@ -134,7 +138,7 @@ nav ul li a{
     justify-content: center;
 }
 
-#store-section .top{
+.top{
     margin: 65px auto;
     text-align: center;
     width: 50%;
@@ -199,4 +203,113 @@ nav ul li a{
     letter-spacing: 0.5px;
     color: #8b8b99;
     font-weight: 500;
+}
+
+
+/* testimonial section*/
+
+#testimonial-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+#testimonial-section .bottom{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.testimonial-card{
+    text-align: center;
+    padding: 50px 30px;
+    margin: 0px 20px;
+    width: 25%;
+    background-color: #f5f6fb;
+    border-radius: 30px 0px 30px 0px;
+    
+}
+
+.testimonial-card img{
+    width: 70px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.testimonial-card .testimonial-p{
+    color: #8b8b99;
+    line-height: 1.5;
+    margin: 30px 20px;
+    
+}
+
+.testimonial-card .testimonial-info{
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-size: 0.8rem;
+    
+}
+
+
+/* follow section*/
+
+#follow-section{
+    display:flex;
+    
+}
+
+.left{
+
+}
+
+.left img{
+    width: 70vw;
+}
+
+.right{
+    background-image: url("https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png");
+    background-size: cover;
+    background-position: left;
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.right .right-content{
+    text-align: left;
+    width: 60%;
+}
+
+.right-content h2{
+    font-size: 3rem;
+}
+
+.right-content p{
+    margin: 20px 0px;
+    line-height: 1.5;
+    color: #8b8b99;
+}
+
+.right-content input{
+    padding: 10px;
+    margin: 20px 0px;
+    font-size: 1.1rem;
+    color: #8b8b99;
+}
+
+.right-content .pink-fill{
+    background-color: #f69dad;
+    border: 2px solid #f69dad;
+    padding: 15px 45px;
+    font-size: 1.1rem;
+}
+
+.pink-fill:hover{
+    background-color: transparent;
+    border: 2px solid #f69dad;
+    color: #f69dad;
 }
