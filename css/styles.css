@@ -312,4 +312,32 @@ nav ul li a{
     background-color: transparent;
     border: 2px solid #f69dad;
     color: #f69dad;
+    cursor: pointer;
+}
+
+
+/* video section*/
+
+#video-section{
+    display: flex;
+    justify-content: center;
+}
+
+#video-section .content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 50px 0px;
+}
+
+
+.horizontal-line{
+    width: 100px;
+    height: 2px;
+    background-color: #e4b476;
+    margin: 20px auto;
+}
+
+#video{
+    
 }
