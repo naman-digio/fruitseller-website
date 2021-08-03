@@ -338,6 +338,16 @@ nav ul li a{
     margin: 20px auto;
 }
 
-#video{
-    
+.content h2{
+    font-size: 3rem;
+    color: #8b8b99;
+}
+
+footer{
+    background-color: #232323;
+    color: white;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
