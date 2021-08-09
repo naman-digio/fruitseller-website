@@ -1,0 +1,49 @@
+@media (max-width:1100px){
+    nav{
+        background-color: red;
+    }
+    .heading h1 {
+        font-size: 2.5rem;
+        font-weight: 600;
+        letter-spacing: 0.1rem;
+    }
+    .card-content {
+        padding: 50px 15px;
+    }
+    .card-content p{
+        font-size: 0.9rem;
+    }
+    .card-content i {
+        font-size: 4rem;
+        font-weight: 900;
+    }
+
+    .feature-view .icon {
+        padding: 30px;
+    }
+    .feature-view .icon i {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width:873px){
+    nav{
+        background-color: blue;
+    }
+    .right-content h2 {
+        font-size: 2rem;
+    }
+
+    #testimonial-section .bottom {
+        width: 100%;
+    }
+    .testimonial-card {
+        margin: 0px 10px;
+    }
+}
+
+@media (max-width:500px){
+    nav{
+        background-color: black;
+    }
+}
