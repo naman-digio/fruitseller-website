@@ -280,9 +280,8 @@ nav ul li a{
 
 }
 
-.right .right-content{
-    text-align: left;
-    width: 60%;
+.right .right-content {
+    margin: 0px 15%;
 }
 
 .right-content h2{
@@ -295,11 +294,18 @@ nav ul li a{
     color: #8b8b99;
 }
 
+#follow-form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-items: self-start;
+}
+
 .right-content input{
-    padding: 10px;
-    margin: 20px 0px;
     font-size: 1.1rem;
     color: #8b8b99;
+    padding: 5px;
+    margin-bottom: 20px;
 }
 
 .right-content .pink-fill{

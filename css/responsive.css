@@ -24,16 +24,37 @@
     .feature-view .icon i {
         font-size: 3rem;
     }
+
+    #testimonial-section .bottom {
+        width: 100%;
+    }
 }
 
 @media (max-width:873px){
     nav{
         background-color: blue;
     }
+    #follow-section{
+        flex-direction: column;
+    }
+    
+    .left img{
+        width: 100vw;
+    }
+    .right{
+        width: 100%;
+    }
+    
     .right-content h2 {
         font-size: 2rem;
     }
-
+    .right .right-content {
+        margin: 0px 15%;
+        padding: 50px;
+    }
+    #testimonial-section{
+        flex-direction: column;
+    }
     #testimonial-section .bottom {
         width: 100%;
     }
